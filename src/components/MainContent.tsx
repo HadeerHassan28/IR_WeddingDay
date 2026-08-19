@@ -34,7 +34,7 @@ export default function MainContent({
           {/* Countdown Section */}
           <section className="py-8 md:py-12 px-4">
             <div className="max-w-2xl mx-auto">
-              <Countdown targetDate="2026-08-28T19:00:00" />
+              <Countdown targetDate="2026-08-26T19:00:00" />
             </div>
           </section>
 

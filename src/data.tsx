@@ -1,6 +1,7 @@
 import { InvitationData } from "./types";
 
 export const invitationData: InvitationData = {
+  occasion: "حَفْلُ زِفَافٍ",
   groomName: "أبراهيم",
   brideName: "ريتاج",
   date: "الْأَرْبِعَاءُ - ٢٦ آغسطس ٢٠٢٦",

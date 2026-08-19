@@ -18,7 +18,7 @@ export const Invitation: React.FC<InvitationProps> = ({ data }) => {
           transition={{ duration: 0.6 }}
         >
           <h2 className="text-3xl md:text-4xl font-bold text-charcoal font-amiri mb-4">
-            دَعْوَةُ كَتَبَ كِتَابَ
+            دَعْوَة {data.occasion}
           </h2>
 
           <div className="my-8">
@@ -33,8 +33,7 @@ export const Invitation: React.FC<InvitationProps> = ({ data }) => {
 
           <div className="border-t border-b border-gold/20 py-6 my-6">
             <p className="text-charcoal/80 font-tajawal text-lg leading-relaxed">
-              يَتَشَرَّفَانِّ بِدَعْوَتِكُمْ لِحُضُورَ حَفْلِ كِتَابِ
-              الْكِتَابِ{" "}
+              يَتَشَرَّفَانِّ بِدَعْوَتِكُمْ لِحَضور {data.occasion}
             </p>
             <p className="text-charcoal/70 font-tajawal mt-4">
               وذَلِك بِمَشِيئَةِ اللَّهِ تَعَالَى{" "}

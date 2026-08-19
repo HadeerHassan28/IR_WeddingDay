@@ -11,6 +11,7 @@ export interface CountdownTime {
 }
 
 export interface InvitationData {
+  occasion: string;
   groomName: string;
   brideName: string;
   date: string;
